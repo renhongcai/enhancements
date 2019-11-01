@@ -12,7 +12,7 @@ approvers:
   - "@brancz"
 editor: "@brancz"
 creation-date: 2019-10-28
-last-updated: 2019-10-28
+last-updated: 2019-11-01
 status: implementable
 see-also:
   - 20181106-kubernetes-metrics-overhaul
@@ -78,9 +78,10 @@ There are still open questions that need to be addressed and updated in this KEP
 
 ## Post-Beta tasks
 
-These are related Post-GA tasks:
+These are related Post-Beta tasks:
 
-*
+* Turn off individual metric(should not require a new release of kubernetes in order to turn off a bad metric).
+* Introduce other functionality to stability framework if need be.(e.g. UntypedFunc, CounterFunc)
 
 ## Implementation History
 
